@@ -1,10 +1,8 @@
 #include "main.h"
 
 /**
- * main - Entry point
- *
- * Print_sign - function that prints sign
- *
+ * print_sign - function that prints sign
+ * @n: parameter
  * Return: 1, 0 and -1
  */
 
