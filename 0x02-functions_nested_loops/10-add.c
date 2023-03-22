@@ -1,9 +1,10 @@
 #include "main.h"
 
 /**
- * add - a function that adds two integers
- * and returns the results
- * @int: parameter
+ * add - adds two values
+ * @n1: The first number to be computed
+ * @n2: The second number to be omputed
+ *
  * Return: Integer value
  */
 
