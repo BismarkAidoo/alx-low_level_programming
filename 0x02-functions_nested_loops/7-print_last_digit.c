@@ -5,16 +5,18 @@
  *
  *@p: function parameter
  *
- * Return: q
+ * Return: r
  */
 
-int print_last_digit(int p)
+int print_last_digit(int r)
 {
 	int q;
 
-	q = p % 10;
+	q = r % 10;
 
-	if (p < 10)
+	if (r < 10)
 		q = -q;
+
+	_putchar(q + '0');
 	return (q);
 }
