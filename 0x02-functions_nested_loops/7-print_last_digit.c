@@ -3,20 +3,22 @@
 /**
  *print_last_digit - function that prints last digit
  *
- *@p: function parameter
+ *@n: function parameter
  *
- * Return: r
+ * Return: Value of the last digit of number
  */
 
-int print_last_digit(int r)
+int print_last_digit(int n)
 {
-	int q;
+	int last;
 
-	q = r % 10;
+	last = n % 10;
 
-	if (r < 10)
-		q = -q;
+	if (last < 0)
+	{
+		last = last * -1;
+	}
 
-	_putchar(q + '0');
-	return (q);
+	_putchar(last + '0');
+	return (last);
 }
