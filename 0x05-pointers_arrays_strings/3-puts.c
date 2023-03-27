@@ -3,6 +3,7 @@
 /**
  * _puts - Prints a string to stdout.
  * @str: The string to be printed.
+ * Return: the length of the string
  */
 
 void _puts(char *str)
