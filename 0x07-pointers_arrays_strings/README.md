@@ -7,18 +7,18 @@ In this project, I learnt about how to use pointers to pointers and multidimensi
 _putchar.c:C function that writes a character to stdout.
  
 ## Header file
-	#| file		#| Prototype							#|
+	 file		| 		Prototype
 
-	#| memset	#| char *_memset(char *s, char b, unsigned int n);		#|
-	#| memcpy	#| char *_memcpy(char *dest, char *src, unsigned int n);	#|
-	#| strchr	#| char *_strchr(char *s, char c);				#|
-	#| strspn	#| unsigned int _strspn(char *s, char *accept);			#|
-	#| strpbrk	#| char *_strpbrk(char *s, char *accept);			#|
-	#| strstr	#| char *_strstr(char *haystack, char *needle);			#|
-	#| chessboard	#| void print_chessboard(char (*a)[8]);				#|
-	#| _putchar	#| int _putchar(char c);					#|
-	#| diagsums	#| void print_diagsums(int *a, int size);			#|
-	#| pointer	#| void set_string(char **s, char *to);				#|
+	 memset		| char *_memset(char *s, char b, unsigned int n);
+	 memcpy		| char *_memcpy(char *dest, char *src, unsigned int n);
+	 strchr		| char *_strchr(char *s, char c);	
+	 strspn		| unsigned int _strspn(char *s, char *accept);
+	 strpbrk	| char *_strpbrk(char *s, char *accept);
+	 strstr		| char *_strstr(char *haystack, char *needle);
+	 chessboard	| void print_chessboard(char (*a)[8]);
+	 _putchar	| int _putchar(char c);
+	 diagsums	| void print_diagsums(int *a, int size);
+	 pointer	| void set_string(char **s, char *to);
 	
 
 # Tasks
