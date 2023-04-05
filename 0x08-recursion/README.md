@@ -2,22 +2,23 @@
 In this project, I learnt about recursion in C programming.
 
 ## Helper file
-	*_putchar.c : C function that writes a character to stdout.
+	* _putchar.c : C function that writes a character to stdout.
 
 ## Header file
-	*main.h : Header file containing prototypes for all the functions written in the projects.
+	* main.h : Header file containing prototypes for all the functions written in the projects.
 
-	|_________ File ________________|_____________ Prototype ___________________|
-	|___ _putchar.c ________________|___ int _putchar(char c); _________________|
-	|___ 0-puts_recursion.c ________|___ void _puts_recursion(char *s); ________|
-	|___ 1-print_rev_recursion.c ___|___ void _print_rev_recursion(char *s); ___|
-	|___ 2-strlen_recursion.c ______|___ int _strlen_recursion(char *s); _______|
-	|___ 3-factorial.c _____________|___ int factorial(int n); _________________|
-	|___ 4-pow_recursion.c _________|___ int _pow_recursion(int x, int y); _____|
-	|___ 5-sqrt_recursion.c ________|___ int _sqrt_recursion(int n); ___________|
-	|___ 6-is_prime_number.c _______|___ int is_prime_number(int n); ___________|
-	|___ 100-is_palindrome.c _______|___ int is_palindrome(char *s); ___________|
-	|___ 101-wildcmp.c _____________|___ int wildcmp(char *s1, char *s2); ______|
+	| File 				| Prototype			 |
+	|:------------------------------|-------------------------------:|
+	| _putchar.c 			| int _putchar(char c);	|
+	| 0-puts_recursion.c 		| void _puts_recursion(char *s); |
+	| 1-print_rev_recursion.c 	| void _print_rev_recursion(char *s); |
+	| 2-strlen_recursion.c 		| int _strlen_recursion(char *s); |
+	| 3-factorial.c 		| int factorial(int n); |
+	| 4-pow_recursion.c  		| int _pow_recursion(int x, int y); |
+	| 5-sqrt_recursion.c 		| int _sqrt_recursion(int n); |
+	| 6-is_prime_number.c 		| int is_prime_number(int n); |
+	| 100-is_palindrome.c 		| int is_palindrome(char *s); |
+	| 101-wildcmp.c 		| int wildcmp(char *s1, char *s2); |
 
 ## Tasks
 - [0] She locked away a secret, deep inside herself, something she once knew to be true... but chose to forget
