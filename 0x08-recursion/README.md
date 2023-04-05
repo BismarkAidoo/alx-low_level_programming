@@ -2,14 +2,14 @@
 In this project, I learnt about recursion in C programming.
 
 ## Helper file
-	- _putchar.c : C function that writes a character to stdout.
+	 _putchar.c : C function that writes a character to stdout.
 
 ## Header file
-	- main.h : Header file containing prototypes for all the functions written in the projects.
+	 main.h : Header file containing prototypes for all the functions written in the projects.
 
 ###
 
-	| File 				| Prototype			 |
+	| File 	   		| Prototype			        |
 	|:-----------------------------:|:------------------------------:|
 	| _putchar.c 			| int _putchar(char c);	|
 	| 0-puts_recursion.c 		| void _puts_recursion(char *s); |
