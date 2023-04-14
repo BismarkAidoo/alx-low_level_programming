@@ -4,21 +4,21 @@ In this project, I learned about using `calloc` and `realloc` in C.
 ## Header File
 * main.h: Header file containing prototypes for all functions written in the project.
 
-            | File                  | 				Prototype                     |
-	    |:--------------------- |:------------------------------------------------------------------------:|
-	    | 0-malloc_checked.c    | void *malloc_checked(unsigned int b);	    			       |
-	    | 1-string_nconcat.c    | char *string_nconcat(char *s1, char *s2, unsigned int n); 	       |
-	    | 2-calloc.c            | void *_calloc(unsigned int nmemb, unsigned int size);     	       |
-	    | 3-array_range.c       | int *array_range(int min, int max);		       		       |
-	    | 100-realloc.c         | void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size); |
+            | File                  | 				Prototype                     		|
+	    |:--------------------- |:-------------------------------------------------------------------------:|
+	    | 0-malloc_checked.c    | void *malloc_checked(unsigned int b);					|
+	    | 1-string_nconcat.c    | char *string_nconcat(char *s1, char *s2, unsigned int n);			|
+	    | 2-calloc.c            | void *_calloc(unsigned int nmemb, unsigned int size);			|
+	    | 3-array_range.c       | int *array_range(int min, int max);					|
+	    | 100-realloc.c         | void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);	|
 
 ## Tasks
-- 0. Trust no one
+- 0.Trust no one
 	* Write a function that allocates memory using `malloc`.
 		- Returns a pointer to the allocated memory
 		- if `malloc` fails, the `malloc_checked` function should cause normal process termination with a status value of `98`
 
-- 1. string_nconcat
+- 1.string_nconcat
 	* Write a function that concatenates two strings.
 		- The returned pointer shall point to a newly allocated space in memory, which contains `s1`, followed by the first n bytes of `s2`, and null terminated
 		- If the function fails, it should return `NULL`
@@ -32,7 +32,7 @@ In this project, I learned about using `calloc` and `realloc` in C.
 		- If `nmemb` or `size` is `0`, then `_calloc` returns `NULL`
 		- If `malloc` fails, then `_calloc` returns `NULL`
 
-- 3. array_range
+- 3.array_range
 	* Write a function that creates an array of integers.
 		- The array created should contain all the values from `min` (included) to `max` (included), ordered from `min` to `max`
 		- Return: the pointer to the newly created array
@@ -50,7 +50,7 @@ In this project, I learned about using `calloc` and `realloc` in C.
 		- If `ptr` is `NULL`, then the call is equivalent to `malloc(new_size)`, for all values of `old_size` and `new_size`
 		- If `new_size` is equal to zero, and `ptr` is not `NULL`, then the call is equivalent to `free(ptr)`. Return `NULL`
 
-- 5. We must accept finite disappointment, but never lose infinite hope
+- 5.We must accept finite disappointment, but never lose infinite hope
 	* Write a program that multiplies two positive numbers.
 		- Usage: `mul num1 num2`
 		- `num1` and `num2` will be passed in base 10
