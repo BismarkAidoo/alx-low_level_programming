@@ -6,9 +6,9 @@ In this project, I learned about using structures and `typedef` in C.
 
 		| Type/File		|			Definition/Prototype		|
 		|:----------------------|:---------------------------------------------------------------------:|
-		|			| * `char *name`							|
-		| `struct dog`		| * `float age`								|
-		|			| * `char *owner`							|
+		|			| `char *name`								|
+		| `struct dog`		| `float age`								|
+		|			| `char *owner`								|
 		| `typedef dog_t`	| `struct dog`								|
 		| `1-init_dog.c`	| `void init_dog(struct dog *d, char *name, float age, char *owner);`	|
 		| `2-print_dog.c`	| `void print_dog(struct dog *d);`					|
