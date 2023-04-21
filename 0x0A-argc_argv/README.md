@@ -1,4 +1,3 @@
-# C - argc, argv
 In this project, I learned about ultizing arguments passed to C functions with `argc` and `argv`.
 
 ## Tasks

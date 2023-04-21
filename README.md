@@ -15,4 +15,5 @@
 - 0x0C More Malloc & free
 - 0x0D Preprocessor
 - 0x0E Structures & Typedef
- 
+- 0x0F Function Pointers
+- 0x10 Variadic Functions 
