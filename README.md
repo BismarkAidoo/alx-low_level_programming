@@ -16,4 +16,8 @@
 - 0x0D Preprocessor
 - 0x0E Structures & Typedef
 - 0x0F Function Pointers
-- 0x10 Variadic Functions 
+- 0x10 Variadic Functions
+- 0X12 Singly Linked Lists
+- 0x13 More Singly Linked Lists
+- 0x14 Bit Manipulation
+- 0x15 File I/O 
