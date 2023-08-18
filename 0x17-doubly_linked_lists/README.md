@@ -22,7 +22,7 @@ In this project, I learned about using doubly-linked lists in C.
 
 - 0.Print list
 
-	* 0-print_dlistint.c: C function that prints all the elements of a doubly-linked dlistint_t list.
+	* 0-print_dlistint.c: C function that prints all the elements of a doubly-linked `dlistint_t` list.
 	* Returns the number of nodes in the list.
 
 - 1.List length
